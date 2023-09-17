@@ -12,7 +12,7 @@ export const paystack = axios.create({
 });
 
 export { create_transfer_recipient } from './create_transfer_recipient.js';
-export { currencies } from './currencies.js';
+export * from './currencies.js';
 export { verify } from './verify.js';
 export { get_banks } from './get_banks.js';
 export { transfer } from './transfer.js';
