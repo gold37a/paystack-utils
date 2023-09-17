@@ -1,6 +1,8 @@
 export const currencies: Array<{ name: string; value: Currency }> = [
-	{ name: 'Naira', value: 'NGN' },
-	{ name: 'Cedi', value: 'GHS' }
+	{ name: 'Nigerian Naira', value: 'NGN' },
+	{ name: 'Ghana Cedi', value: 'GHS' },
+	{ name: 'South African Rand', value: 'ZAR' },
+	{ name: 'US Dollar', value: 'USD' }
 ];
 
-export type Currency = 'NGN' | 'GHS';
+export type Currency = 'NGN' | 'GHS' | 'ZAR' | 'USD';
